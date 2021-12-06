@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<!-- Mirrored from nlp.stanford.edu/pubs/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Feb 2019 04:23:27 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+
+	<meta charset="utf-8">
+	<title>People - DIU NLP & ML LAB </title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+
+
+	<!-- Bootstrap styles -->
+	<link rel="stylesheet" href="../static/css/vendor/bootstrap/bootstrap.css">
+
+	<!-- Glyphicons -->
+	<link rel="stylesheet" href="../static/css/vendor/glyphicons/glyphicons.css">
+	<link rel="stylesheet" href="../static/css/vendor/glyphicons/filetypes.css">
+	<link rel="stylesheet" href="../static/css/vendor/glyphicons/social.css">
+
+	<!-- Google Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="../static/css/bootstrap-markdown.min.css" type="text/css">
+
+	<!-- LayerSlider styles -->
+	<link rel="stylesheet" href="../static/css/vendor/layerslider/layerslider.css" type="text/css">
+
+	<!-- twitter -->
+	<meta property="twitter:account_id" content="118263124">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@stanfordnlp">
+	<meta name="twitter:title" content="The Stanford NLP Group">
+	<meta name="twitter:description" content="Performing groundbreaking
+           Natural Language Processing research since 1999.">
+	<meta name="twitter:image" content="../software/stanford-dependencies/brownback-uncollapsed.png/index.html">
+	<meta name="twitter:url" content="../index.html">
+	<!-- Google analytics -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-23880590-1']);
+		_gaq.push(['_trackPageview']);
+		(function () {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ?
+				'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<!-- Grove Styles (switch for different color schemes, e.g. "styles-cleanblue.css") -->
+	<link rel="stylesheet" href="../static/css/styles-cleanred.css" id="grove-styles">
+
+	<link rel="stylesheet" href="../static/js/jquery.dataTables.min.js" type="text/css">
+
+	<!-- table highlighting -->
+	<!--<link rel="stylesheet" href="//cdn.datatables.net/plug-ins/1.10.7/features/searchHighlight/dataTables.searchHighlight.css">-->
+
+	<!-- site-wide custom css -->
+	<link rel="stylesheet" href="../static/css/nlp.css" id="nlp-styles">
+
+
+
+	<!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/ie8.css">        
+        <script src="js/vendor/google/html5-3.6-respond-1.1.0.min.js"></script>
+    <![endif]-->
+
+	<script src="../static/js/vendor/jquery/jquery-1.9.1.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="static/js/vendor/jquery/jquery-1.9.1.min.js/index.html"><\/script>')
+	</script>
+	<!-- jQuery with jQuery Easing, and jQuery Transit JS -->
+
+	<!-- LayerSlider from Kreatura Media with Transitions -->
+	<script src="../static/js/vendor/layerslider/greensock.js" type="text/javascript"></script>
+	<script src="../static/js/vendor/layerslider/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="../static/js/vendor/layerslider/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+	<!-- Bootstrap Markdown for Blog editing-->
+	<script src="../static/js/markdown.js" type="text/javascript"></script>
+	<script src="../static/js/to-markdown.js" type="text/javascript"></script>
+	<script src="../static/js/bootstrap-markdown.js" type="text/javascript"></script>
+
+	<!-- Grove Layerslider initiation script -->
+	<script src="../static/js/grove-slider.js" type="text/javascript"></script>
+
+	<!-- DataTables.net for publications -->
+	<script src="../static/js/jquery.dataTables.min.js"></script>
+
+	<!-- highlighting for tables -->
+	<script src="../static/js/dataTables.searchHighlight.min.js"></script>
+	<!-- <script src="http://bartaz.github.io/sandbox.js/jquery.highlight.js"></script> -->
+
+	<!-- fancy select boxes -->
+	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script> -->
+
+</head>
+
+<body>
+
+	<!-- navigation -->
+
+	<body>
+
+		<!-- navigation -->
+		<header>
+			<nav class="navbar navbar-default grove-navbar">
+				<div class="container">
+					<div class="navbar-header">
+						<a href="#" class="grove-toggle collapsed" data-toggle="collapse" data-target=".grove-nav"> <i class="glyphicons show_lines"></i>
+						</a>
+						<img class="navbar-brand navbar-left hidden-xs" src="../static/img/logos/diuLogo.png" alt="">
+						<a class="navbar-brand navbar-left" href="../">
+							<h3 class="hidden-xs"> DIU - NLP and Machine Learning Research LAB</h3>
+							<h3 class="hidden-sm hidden-md hidden-lg hidden-xl">The DIU NLP Group</h3>
+						</a>
+					</div>
+
+					<div class="navbar-collapse grove-nav collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="#">People</a>
+							</li>
+							<li>
+								<a href="../pubs/">Publications</a>
+							</li>
+							<li>
+								<a href="../Dataset/">Dataset</a>
+							</li>
+							<li>
+								<a href="#">Gallery</a>
+							</li>
+							<li>
+								<a href="../contact/">Contact</a>
+							</li>
+
+
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		</header>
+
+
+
+		<div class="widewrapper">
+			<div id="body_content">
+
+				<div class="widewrapper pagetitle">
+					<div class="container">
+						<h1>People</h1>
+					</div>
+				</div>
+
+
+				<div class="widewrapper weak-highlight">
+					<div class="container content">
+						<!--<div class="headline top">People</div>-->
+
+						<!--<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="border-right: 1px solid #ccc;">-->
+						<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+							<!--<img src="/static/img/group-photo.jpg" class="img-responsive img-rounded">-->
+
+							<div class="showroom-controls">
+								<div class="links">Advisory Committee</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6 team-member">
+									<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:150px;max-width:150px" src="../static/img/people/SAH.jpeg"
+									 class="img-responsive img-rounded">
+									<div class="description" style="border-radius: 10px">
+										<a href="http://faculty.daffodilvarsity.edu.bd/profile/cse/akhter.html">
+											<h4>Prof. Dr. Syed Akhter Hossain</h4>
+										</a>
+										<p class="clean">
+											artificial intelligence, data mining, natural language processing, natural language understanding ,deep
+											learning and Object Oriented Programming
+										</p>
+									</div>
+
+								</div>
+
+								<div class="col-md-6 team-member">
+									<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-width:150px;max-height:150px;" src="../static/img/people/nuriSir.jpeg"
+									 class="img-responsive img-rounded">
+									<div class="description" style="border-radius: 10px">
+										<a href="http://faculty.daffodilvarsity.edu.bd/profile/cse/rashed-haider-noori.html">
+											<h4>Dr. Sheak Rashed Haider Noori</h4>
+										</a>
+										<p class="clean">
+											artificial intelligence, data mining, natural language processing, natural language understanding ,deep
+											learning and Object Oriented Programming
+										</p>
+									</div>
+
+								</div>
+
+
+							</div>
+
+
+							<br />
+							<br />
+							<br />
+							<br />
+
+
+							<div class="showroom-controls">
+								<div class="links">Core Research Team</div>
+							</div>
+
+							<div class="row">
+								<div class="col-sm-12 team-member">
+									<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-height:150px;max-width:150px" src="../static/img/people/SAB.jpg"
+									 class="img-responsive img-rounded">
+									<div class="description" style="border-radius: 10px">
+										<a href="http://faculty.daffodilvarsity.edu.bd/profile/cse/abujar.html">
+											<h4>Mr. Sheikh Abujar</h4>
+										</a>
+										<p class="clean">
+
+
+											Object Oriented Programming, Artificial Intelligence, Data mining, Software Engineering, System analysis and
+											Design, Data Structure,Database Management System, Microprocessor and Assembly Language.
+
+										</p>
+									</div>
+
+								</div>
+
+
+								<div class="col-sm-4 team-member">
+									<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-width:150px;max-height:150px;" src="../static/img/people/rabbyVai.jpg"
+									 class="img-responsive img-rounded">
+									<div class="description" style="border-radius: 10px">
+										<a href="https://shahariarrabby.github.io/">
+											<h4>AKM Shahariar Azad Rabby</h4>
+										</a>
+										<p class="clean">
+											Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing.
+										</p>
+									</div>
+
+								</div>
+
+
+								<div class="col-sm-4 team-member">
+									<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-width:150px;max-height:150px;" src="../static/img/people/MazharulVai.jpeg"
+									 class="img-responsive img-rounded">
+									<div class="description" style="border-radius: 10px">
+										<a href="https://bd.linkedin.com/in/s-m-mazharul-hoque-chowdhury-989026112">
+											<h4>S. M. Mazharul Hoque Chowdhury</h4>
+										</a>
+										<p class="clean">
+											Data Mining, Natural Language Processing, Machine Learning, Robotics, Artificial Intelligence
+										</p>
+									</div>
+
+								</div>
+
+								<div class="col-sm-4 team-member">
+									<img style="margin-left:auto;margin-right:auto;width:auto;height:auto;max-width:173px;max-height:165px;" src="../static/img/people/sanzidVai.jpg"
+									 class="img-responsive img-rounded">
+									<div class="description" style="border-radius: 10px">
+										<a href="https://sanzidscloud.com/">
+											<h4>Md. Sanzidul Islam</h4>
+										</a>
+										<p class="clean">
+											Natural Language Processing, Machine Learning, Deep Learning, Bengali Resource Development.
+										</p>
+									</div>
+
+								</div>
+
+
+							</div>
+							<br>
+							<br>
+							<br>
+
+
+							<br />
+
+
+
+
+							<br />
+							<div class="showroom-controls">
+								<div class="links">Thesis Student</div>
+							</div>
+
+							<div class="row">
+
+								<div class="col-sm-3 team-member">
+									<!--<img style="margin-left:auto;margin-right:auto;width:150px;height:150px;" src="/static/img/people/placeholder.jpg" class="img-responsive img-rounded">-->
+									<div style="text-align:left">
+
+										<b>Fazle Rabby Khan </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+									<div style="text-align:left">
+
+										<b>Mushfiqus Salehin </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+
+									<div style="text-align:left">
+
+										<b>Ashik Ahamed Aman Rafat </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+									<div style="text-align:left">
+
+										<b>Afsana Khanam </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+
+									<div style="text-align:left">
+
+										<b>Humayra Khanum </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+
+									<div style="text-align:left">
+
+										<b>Abu Kaisar Mohammad Masum </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+									<div style="text-align:left">
+
+										<b>Md. Ashraful Islam Talukder </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+
+									<div style="text-align:left">
+
+										<b>Md. Al-Mehedi Hasan </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+
+									<div style="text-align:left">
+
+										<b>khusbhu Akter </b>
+
+										<br />
+										Computer Science
+									</div>
+								</div>
+								<div class="col-sm-3 team-member">
+
+
+									<div style="text-align:left">
+
+										<b>Shrabosty </b>
+
+										<br />
+										Computer Science
+									</div>
+									<br />
+								</div>
+							</div>
+
+
+							<div class="row">
+								<div class="showroom-controls">
+									<div class="links">Alumni Research Team</div>
+								</div>
+
+								<div class="col-sm-3 team-member">
+									<!--<img style="margin-left:auto;margin-right:auto;width:150px;height:150px;" src="/static/img/people/placeholder.jpg" class="img-responsive img-rounded">-->
+									<div style="text-align:left">
+
+										<b>Sadeka Haque </b>
+
+										<br />
+										Computer Science
+									</div>
+
+								</div>
+								<div class="col-sm-3 team-member">
+										<!--<img style="margin-left:auto;margin-right:auto;width:150px;height:150px;" src="/static/img/people/placeholder.jpg" class="img-responsive img-rounded">-->
+										<div style="text-align:left">
+	
+											<b>Sadia Sultana Sharmin Mousumi </b>
+	
+											<br />
+											Computer Science
+										</div>
+	
+									</div>
+									<div class="col-sm-3 team-member">
+											<!--<img style="margin-left:auto;margin-right:auto;width:150px;height:150px;" src="/static/img/people/placeholder.jpg" class="img-responsive img-rounded">-->
+											<div style="text-align:left">
+		
+												<b>Nazmul A. Jessan </b>
+		
+												<br />
+												Computer Science
+											</div>
+		
+										</div>
+										<div class="col-sm-3 team-member">
+												<!--<img style="margin-left:auto;margin-right:auto;width:150px;height:150px;" src="/static/img/people/placeholder.jpg" class="img-responsive img-rounded">-->
+												<div style="text-align:left">
+			
+													<b>Shahinur Rahman </b>
+			
+													<br />
+													Computer Science
+												</div>
+			
+											</div>
+							</div>
+
+
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+
+
+
+		<footer class="widewrapper footer">
+			<div class="container">
+
+				<div class="row footer">
+
+					<div class="col-sm-3">
+							<h4>Address</h4>
+							DIU - NLP & ML LAB</br>
+						102 Shukrabad, Mirpur Road<br>
+						Dhanmondi, Dhaka-1207<br>
+						(Main Campus And Administrative Building)<br>
+						<a href="https://www.google.com/maps/dir//23.7545812,90.3767193/@23.754581,90.376719,16z?hl=en-US" target="_blank">Directions</a>
+					</div>
+
+
+					<div class="col-sm-3">
+						<div>
+							<h4>Affiliated Groups</h4>
+							<ul class="grove-list">
+								<li><a href="http://research.daffodilvarsity.edu.bd/" target="_blank">Research News</a></li>
+								<li><a href="https://daffodilvarsity.edu.bd/article/journals" target="_blank">Journals</a></li>
+								<li><a href="https://daffodilvarsity.edu.bd/article/research-center" target="_blank">Research Center</a></li>
+								<li><a href="https://daffodilvarsity.edu.bd/article/research-projects" target="_blank">Research Projects</a></li>
+
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-sm-3">
+						<div class="indent30">
+							<h4>Connect</h4>
+
+							<ul class="grove-list">
+								<li><a href="https://github.com/DIU-NLP-ML" target="_blank">Github</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="indent30">
+							<h4>Useful links</h4>
+							<div class="small" style="text-align:left">
+								<a href="https://daffodilvarsity.edu.bd/" target="_blank">DIU Website</a> &middot;
+								<a href="http://diupress.com/" target="_blank">DIU Press</a> <br> &middot;
+								<a href="http://newsletter-archive.daffodilvarsity.edu.bd/" target="_blank">Media Coverage Archive</a>
+								<br>&middot;
+								<a href="http://news.daffodilvarsity.edu.bd/" target="_blank">DIU News</a> <br>
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+		</footer>
+
+
+		<script src="../static/js/vendor/bootstrap/bootstrap.min.js"></script>
+		<script src="../static/js/vendor/modernizr/modernizr.js"></script>
+
+
+		<script>
+			$('ul.nav > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
+		</script>
+
+
+
+	</body>
+
+	<!-- Mirrored from nlp.stanford.edu/people/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Feb 2019 04:23:27 GMT -->
+
+</html>
